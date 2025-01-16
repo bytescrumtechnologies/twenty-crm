@@ -1,16 +1,16 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
 import styled from '@emotion/styled';
 import { IconBook, IconChevronDown, IconRobotFace } from '@tabler/icons-react';
+import { useEffect, useRef, useState } from 'react';
 
 import { ExternalArrow, GithubIcon } from '@/app/_components/ui/icons/SvgIcons';
 import { CallToAction } from '@/app/_components/ui/layout/header/callToAction';
 import {
-  DesktopNav,
-  LinkList,
-  ListItem,
-  LogoContainer,
+    DesktopNav,
+    LinkList,
+    ListItem,
+    LogoContainer,
 } from '@/app/_components/ui/layout/header/styled';
 import { Logo } from '@/app/_components/ui/layout/Logo';
 import { Theme } from '@/app/_components/ui/theme/theme';
@@ -148,7 +148,7 @@ export const HeaderDesktop = ({ numberOfStars }: Props) => {
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
-        <ListItem href="https://github.com/twentyhq/twenty">
+        <ListItem href="https://github.com/Brandedwithhonor/Aston">
           <GithubIcon color="rgb(71,71,71)" />
           {formatNumberOfStars(numberOfStars)}
           <ExternalArrow />

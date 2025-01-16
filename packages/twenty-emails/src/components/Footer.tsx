@@ -18,7 +18,7 @@ export const Footer = () => {
         <Column>
           <ShadowText>
             <Link
-              href="https://github.com/twentyhq/twenty"
+              href="https://github.com/Brandedwithhonor/Aston"
               value="Github"
               aria-label="Visit Twenty's GitHub repository"
             />
