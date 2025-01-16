@@ -2,28 +2,28 @@ import { isObject } from '@sniptt/guards';
 
 import { ObjectMetadataItem } from '@/object-metadata/types/ObjectMetadataItem';
 import {
-  ActorFilter,
-  AddressFilter,
-  AndObjectRecordFilter,
-  ArrayFilter,
-  BooleanFilter,
-  CurrencyFilter,
-  DateFilter,
-  EmailsFilter,
-  FloatFilter,
-  FullNameFilter,
-  LeafObjectRecordFilter,
-  LinksFilter,
-  MultiSelectFilter,
-  NotObjectRecordFilter,
-  OrObjectRecordFilter,
-  PhonesFilter,
-  RatingFilter,
-  RawJsonFilter,
-  RecordGqlOperationFilter,
-  SelectFilter,
-  StringFilter,
-  UUIDFilter,
+    ActorFilter,
+    AddressFilter,
+    AndObjectRecordFilter,
+    ArrayFilter,
+    BooleanFilter,
+    CurrencyFilter,
+    DateFilter,
+    EmailsFilter,
+    FloatFilter,
+    FullNameFilter,
+    LeafObjectRecordFilter,
+    LinksFilter,
+    MultiSelectFilter,
+    NotObjectRecordFilter,
+    OrObjectRecordFilter,
+    PhonesFilter,
+    RatingFilter,
+    RawJsonFilter,
+    RecordGqlOperationFilter,
+    SelectFilter,
+    StringFilter,
+    UUIDFilter,
 } from '@/object-record/graphql/types/RecordGqlOperationFilter';
 import { isMatchingArrayFilter } from '@/object-record/record-filter/utils/isMatchingArrayFilter';
 import { isMatchingBooleanFilter } from '@/object-record/record-filter/utils/isMatchingBooleanFilter';
@@ -179,7 +179,7 @@ export const isRecordMatchingFilter = ({
       }
       case FieldMetadataType.RichText: {
         // TODO: Implement a better rich text filter once it becomes a composite field
-        // See this issue for more context: https://github.com/twentyhq/twenty/issues/7613#issuecomment-2408944585
+        // See this issue for more context: https://github.com/Brandedwithhonor/Aston/issues/7613#issuecomment-2408944585
         // This should be tackled in Q4'24
         return isMatchingStringFilter({
           stringFilter: filterValue as StringFilter,

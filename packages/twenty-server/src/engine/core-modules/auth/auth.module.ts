@@ -17,6 +17,7 @@ import { MicrosoftAPIsService } from 'src/engine/core-modules/auth/services/micr
 // import { OAuthService } from 'src/engine/core-modules/auth/services/oauth.service';
 import { ResetPasswordService } from 'src/engine/core-modules/auth/services/reset-password.service';
 import { SignInUpService } from 'src/engine/core-modules/auth/services/sign-in-up.service';
+import { SocialSsoService } from 'src/engine/core-modules/auth/services/social-sso.service';
 import { SwitchWorkspaceService } from 'src/engine/core-modules/auth/services/switch-workspace.service';
 import { SamlAuthStrategy } from 'src/engine/core-modules/auth/strategies/saml.auth.strategy';
 import { AccessTokenService } from 'src/engine/core-modules/auth/token/services/access-token.service';
@@ -44,7 +45,6 @@ import { DataSourceModule } from 'src/engine/metadata-modules/data-source/data-s
 import { WorkspaceDataSourceModule } from 'src/engine/workspace-datasource/workspace-datasource.module';
 import { WorkspaceManagerModule } from 'src/engine/workspace-manager/workspace-manager.module';
 import { ConnectedAccountModule } from 'src/modules/connected-account/connected-account.module';
-import { SocialSsoService } from 'src/engine/core-modules/auth/services/social-sso.service';
 
 import { AuthResolver } from './auth.resolver';
 
@@ -107,7 +107,7 @@ import { JwtAuthStrategy } from './strategies/jwt.auth.strategy';
     TransientTokenService,
     ApiKeyService,
     SocialSsoService,
-    // reenable when working on: https://github.com/twentyhq/twenty/issues/9143
+    // reenable when working on: https://github.com/Brandedwithhonor/Aston/issues/9143
     // OAuthService,
   ],
   exports: [AccessTokenService, LoginTokenService, RefreshTokenService],

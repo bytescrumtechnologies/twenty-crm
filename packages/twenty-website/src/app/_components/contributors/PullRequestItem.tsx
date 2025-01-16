@@ -1,6 +1,6 @@
-import { Tooltip } from 'react-tooltip';
 import styled from '@emotion/styled';
 import { format } from 'date-fns';
+import { Tooltip } from 'react-tooltip';
 
 import { PullRequestIcon } from '@/app/_components/ui/icons/SvgIcons';
 import { Theme } from '@/app/_components/ui/theme/theme';
@@ -88,7 +88,7 @@ export const PullRequestItem = ({
         </StyledTitle>
         <StyledDescription>
           <StyledPrLink
-            href={'https://github.com/twentyhq/twenty/pull/' + prNumber}
+            href={'https://github.com/Brandedwithhonor/Aston/pull/' + prNumber}
             target="__blank"
           >
             #{prNumber}

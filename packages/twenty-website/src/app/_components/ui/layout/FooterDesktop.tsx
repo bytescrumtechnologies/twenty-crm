@@ -142,7 +142,7 @@ export const FooterDesktop = () => {
             <XIcon size="M" />
           </a>
           <a
-            href="https://github.com/twentyhq/twenty"
+            href="https://github.com/Brandedwithhonor/Aston"
             target="_blank"
             rel="noreferrer"
           >

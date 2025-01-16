@@ -1,21 +1,21 @@
 'use client';
 
-import { useState } from 'react';
 import { IBM_Plex_Mono } from 'next/font/google';
+import { useState } from 'react';
 
 import { ExternalArrow, GithubIcon } from '@/app/_components/ui/icons/SvgIcons';
 import { CallToAction } from '@/app/_components/ui/layout/header/callToAction';
 import {
-  HamburgerContainer,
-  HamburgerLine1,
-  HamburgerLine2,
-  ListItem,
-  LogoAddon,
-  LogoContainer,
-  MobileLinkList,
-  MobileMenu,
-  MobileNav,
-  NavOpen,
+    HamburgerContainer,
+    HamburgerLine1,
+    HamburgerLine2,
+    ListItem,
+    LogoAddon,
+    LogoContainer,
+    MobileLinkList,
+    MobileMenu,
+    MobileNav,
+    NavOpen,
 } from '@/app/_components/ui/layout/header/styled';
 import { Logo } from '@/app/_components/ui/layout/Logo';
 import { formatNumberOfStars } from '@/shared-utils/formatNumberOfStars';
@@ -67,7 +67,7 @@ export const HeaderMobile = ({ numberOfStars }: Props) => {
           <ListItem href="/releases">Releases</ListItem>
           <ListItem href="/user-guide">User Guide</ListItem>
           <ListItem href="/developers">Developers</ListItem>
-          <ListItem href="https://github.com/twentyhq/twenty">
+          <ListItem href="https://github.com/Brandedwithhonor/Aston">
             <GithubIcon color="rgb(71,71,71)" />{' '}
             {formatNumberOfStars(numberOfStars)} <ExternalArrow />
           </ListItem>
