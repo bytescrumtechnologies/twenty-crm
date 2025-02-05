@@ -20,7 +20,7 @@ msgid "Confirm your email address"
 msgstr "メールアドレスを確認"
 
 #: src/emails/password-update-notify.email.tsx:46
-msgid "Connect to Twenty"
+msgid "Connect to Aston"
 msgstr "Twentyに接続"
 
 #: src/emails/password-update-notify.email.tsx:24
@@ -36,11 +36,11 @@ msgid "If you did not initiate this change, please contact your workspace owner 
 msgstr "この変更を行っていない場合は、すぐにワークスペースの所有者に連絡してください。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:46
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Aston, please update your subscription within the next {remainingDays} {dayOrDays}."
 msgstr "Twentyを引き続きご利用になる場合は、{remainingDays} {dayOrDays}以内にサブスクリプションを更新してください。"
 
 #: src/emails/clean-suspended-workspace.email.tsx:36
-msgid "If you wish to use Twenty again, you can create a new workspace."
+msgid "If you wish to use Aston again, you can create a new workspace."
 msgstr "Twentyを再度使用するには、新しいワークスペースを作成してください。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:34
@@ -48,7 +48,7 @@ msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been sus
 msgstr "ワークスペース<0>{workspaceDisplayName}</0>は{daysSinceInactive}日間停止されているようです。"
 
 #: src/emails/send-invite-link.email.tsx:42
-msgid "Join your team on Twenty"
+msgid "Join your team on Aston"
 msgstr "Twentyでチームに参加"
 
 #: src/emails/password-update-notify.email.tsx:29
@@ -64,7 +64,7 @@ msgid "Reset your password 🗝"
 msgstr "パスワードをリセット"
 
 #: src/emails/send-email-verification-link.email.tsx:27
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
+msgid "Thanks for registering for an account on Aston! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
 msgstr "Twentyにご登録いただきありがとうございます！開始する前に、ご本人確認のために上記をクリックしてメールアドレスを確認してください。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:40

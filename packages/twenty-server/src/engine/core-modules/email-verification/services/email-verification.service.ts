@@ -9,14 +9,14 @@ import { APP_LOCALES } from 'twenty-shared';
 import { Repository } from 'typeorm';
 
 import {
-  AppToken,
-  AppTokenType,
+    AppToken,
+    AppTokenType,
 } from 'src/engine/core-modules/app-token/app-token.entity';
 import { EmailVerificationTokenService } from 'src/engine/core-modules/auth/token/services/email-verification-token.service';
 import { DomainManagerService } from 'src/engine/core-modules/domain-manager/services/domain-manager.service';
 import {
-  EmailVerificationException,
-  EmailVerificationExceptionCode,
+    EmailVerificationException,
+    EmailVerificationExceptionCode,
 } from 'src/engine/core-modules/email-verification/email-verification.exception';
 import { EmailService } from 'src/engine/core-modules/email/email.service';
 import { EnvironmentService } from 'src/engine/core-modules/environment/environment.service';
@@ -72,7 +72,7 @@ export class EmailVerificationService {
         'EMAIL_FROM_NAME',
       )} <${this.environmentService.get('EMAIL_FROM_ADDRESS')}>`,
       to: email,
-      subject: 'Welcome to Twenty: Please Confirm Your Email',
+      subject: 'Welcome to Aston: Please Confirm Your Email',
       text,
       html,
     });

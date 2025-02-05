@@ -16,10 +16,10 @@ import { useScopedHotkeys } from '@/ui/utilities/hotkey/hooks/useScopedHotkeys';
 import { useTriggerApisOAuth } from '@/settings/accounts/hooks/useTriggerApiOAuth';
 import { AppPath } from '@/types/AppPath';
 import {
-  CalendarChannelVisibility,
-  MessageChannelVisibility,
-  OnboardingStatus,
-  useSkipSyncEmailOnboardingStepMutation,
+    CalendarChannelVisibility,
+    MessageChannelVisibility,
+    OnboardingStatus,
+    useSkipSyncEmailOnboardingStepMutation,
 } from '~/generated/graphql';
 
 const StyledSyncEmailsContainer = styled.div`
@@ -82,7 +82,7 @@ export const SyncEmails = () => {
     <>
       <Title noMarginTop>Emails and Calendar</Title>
       <SubTitle>
-        Sync your Emails and Calendar with Twenty. Choose your privacy settings.
+        Sync your Emails and Calendar with Aston. Choose your privacy settings.
       </SubTitle>
       <StyledSyncEmailsContainer>
         <OnboardingSyncEmailsSettingsCard

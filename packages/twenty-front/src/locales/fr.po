@@ -222,8 +222,8 @@ msgid "Book a Call"
 msgstr "Réserver un appel"
 
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx:23
-msgid "By using Twenty, you agree to the"
-msgstr "En utilisant Twenty, vous acceptez les"
+msgid "By using Aston, you agree to the"
+msgstr "En utilisant Aston, vous acceptez les"
 
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterValue.tsx:73
 msgid "Calculate"
@@ -790,8 +790,8 @@ msgid "Global"
 msgstr "Global"
 
 #: src/pages/settings/SettingsWorkspace.tsx:65
-msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
-msgstr "Accordez à Twenty un accès temporaire à votre espace de travail pour que nous puissions résoudre des problèmes ou récupérer du contenu en votre nom. Vous pouvez révoquer l'accès à tout moment."
+msgid "Grant Aston support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
+msgstr "Accordez à Aston un accès temporaire à votre espace de travail pour que nous puissions résoudre des problèmes ou récupérer du contenu en votre nom. Vous pouvez révoquer l'accès à tout moment."
 
 #: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx:131
 msgid "Hide"

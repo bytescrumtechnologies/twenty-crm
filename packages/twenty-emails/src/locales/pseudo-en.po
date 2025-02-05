@@ -26,7 +26,7 @@ msgid "Confirm your email address"
 msgstr ""
 
 #: src/emails/password-update-notify.email.tsx:46
-msgid "Connect to Twenty"
+msgid "Connect to Aston"
 msgstr ""
 
 #: src/emails/password-update-notify.email.tsx:24
@@ -50,11 +50,11 @@ msgid "If you did not initiate this change, please contact your workspace owner 
 msgstr ""
 
 #: src/emails/warn-suspended-workspace.email.tsx:46
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Aston, please update your subscription within the next {remainingDays} {dayOrDays}."
 msgstr ""
 
 #: src/emails/clean-suspended-workspace.email.tsx:36
-msgid "If you wish to use Twenty again, you can create a new workspace."
+msgid "If you wish to use Aston again, you can create a new workspace."
 msgstr ""
 
 #: src/emails/warn-suspended-workspace.email.tsx:34
@@ -62,7 +62,7 @@ msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been sus
 msgstr ""
 
 #: src/emails/send-invite-link.email.tsx:42
-msgid "Join your team on Twenty"
+msgid "Join your team on Aston"
 msgstr ""
 
 #: src/emails/password-update-notify.email.tsx:29
@@ -78,7 +78,7 @@ msgid "Reset your password 🗝"
 msgstr ""
 
 #: src/emails/send-email-verification-link.email.tsx:27
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
+msgid "Thanks for registering for an account on Aston! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
 msgstr ""
 
 #: src/emails/warn-suspended-workspace.email.tsx:40

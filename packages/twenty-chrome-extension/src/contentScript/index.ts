@@ -25,8 +25,8 @@ const executeScript = async () => {
 
 // The content script gets executed upon load, so the the content script is executed when a user visits https://www.linkedin.com/feed/.
 // However, there would never be another reload in a single page application unless triggered manually.
-// Therefore, if the user navigates to a person or a company page, we must manually re-execute the content script to create the "Add to Twenty" button.
-// e.g. create "Add to Twenty" button when a user navigates to https://www.linkedin.com/in/mabdullahabaid/ from https://www.linkedin.com/feed/
+// Therefore, if the user navigates to a person or a company page, we must manually re-execute the content script to create the "Add to Aston" button.
+// e.g. create "Add to Aston" button when a user navigates to https://www.linkedin.com/in/mabdullahabaid/ from https://www.linkedin.com/feed/
 chrome.runtime.onMessage.addListener(async (message, _, sendResponse) => {
   if (message.action === 'executeContentScript') {
     await executeScript();

@@ -1359,8 +1359,8 @@ msgid "Optional aggregate operation"
 msgstr "可选聚合操作"
 
 #: src/modules/webhook/standard-objects/webhook.workspace-entity.ts:70
-msgid "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Twenty and the webhook consumer to authenticate webhook requests."
-msgstr "用于计算 Webhook 负载 HMAC 签名的可选密钥。此密钥在 Twenty 和 Webhook 用户之间共享，用于验证 Webhook 请求。"
+msgid "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Aston and the webhook consumer to authenticate webhook requests."
+msgstr "用于计算 Webhook 负载 HMAC 签名的可选密钥。此密钥在 Aston 和 Webhook 用户之间共享，用于验证 Webhook 请求。"
 
 #: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts:136
 msgid "Output"

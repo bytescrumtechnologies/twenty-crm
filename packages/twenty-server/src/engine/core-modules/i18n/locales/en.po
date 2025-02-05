@@ -1378,8 +1378,8 @@ msgid "Optional aggregate operation"
 msgstr "Optional aggregate operation"
 
 #: src/modules/webhook/standard-objects/webhook.workspace-entity.ts:70
-msgid "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Twenty and the webhook consumer to authenticate webhook requests."
-msgstr "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Twenty and the webhook consumer to authenticate webhook requests."
+msgid "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Aston and the webhook consumer to authenticate webhook requests."
+msgstr "Optional secret used to compute the HMAC signature for webhook payloads. This secret is shared between Aston and the webhook consumer to authenticate webhook requests."
 
 #: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts:136
 msgid "Output"

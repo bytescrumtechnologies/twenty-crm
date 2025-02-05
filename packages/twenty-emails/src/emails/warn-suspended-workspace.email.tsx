@@ -44,7 +44,7 @@ export const WarnSuspendedWorkspaceEmail = ({
         <br />
         <br />
         <Trans>
-          If you wish to continue using Twenty, please update your subscription
+          If you wish to continue using Aston, please update your subscription
           within the next {remainingDays} {dayOrDays}.
         </Trans>
       </MainText>

@@ -20,7 +20,7 @@ msgid "Confirm your email address"
 msgstr "이메일 주소를 확인하세요"
 
 #: src/emails/password-update-notify.email.tsx:46
-msgid "Connect to Twenty"
+msgid "Connect to Aston"
 msgstr "Twenty에 연결하세요"
 
 #: src/emails/password-update-notify.email.tsx:24
@@ -36,11 +36,11 @@ msgid "If you did not initiate this change, please contact your workspace owner 
 msgstr "이 변경을 시작하지 않으셨다면 즉시 워크스페이스 소유자에게 문의하세요."
 
 #: src/emails/warn-suspended-workspace.email.tsx:46
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Aston, please update your subscription within the next {remainingDays} {dayOrDays}."
 msgstr "Twenty를 계속 사용하려면 다음 {remainingDays} {dayOrDays} 내에 구독을 업데이트하세요."
 
 #: src/emails/clean-suspended-workspace.email.tsx:36
-msgid "If you wish to use Twenty again, you can create a new workspace."
+msgid "If you wish to use Aston again, you can create a new workspace."
 msgstr "Twenty를 다시 사용하려면 새 워크스페이스를 생성하세요."
 
 #: src/emails/warn-suspended-workspace.email.tsx:34
@@ -48,7 +48,7 @@ msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been sus
 msgstr "워크스페이스 <0>{workspaceDisplayName}</0>이(가) {daysSinceInactive}일 동안 일시 중단된 것 같습니다."
 
 #: src/emails/send-invite-link.email.tsx:42
-msgid "Join your team on Twenty"
+msgid "Join your team on Aston"
 msgstr "Twenty에서 팀에 합류하세요"
 
 #: src/emails/password-update-notify.email.tsx:29
@@ -64,7 +64,7 @@ msgid "Reset your password 🗝"
 msgstr "비밀번호를 재설정하세요 🗝"
 
 #: src/emails/send-email-verification-link.email.tsx:27
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
+msgid "Thanks for registering for an account on Aston! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
 msgstr "Twenty에 계정을 등록해 주셔서 감사합니다! 시작하기 전에 본인 확인이 필요합니다. 위를 클릭하여 이메일 주소를 인증하세요."
 
 #: src/emails/warn-suspended-workspace.email.tsx:40

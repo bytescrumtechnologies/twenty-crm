@@ -20,8 +20,8 @@ msgid "Confirm your email address"
 msgstr "確認您的電子郵件地址"
 
 #: src/emails/password-update-notify.email.tsx:46
-msgid "Connect to Twenty"
-msgstr "連接到 Twenty"
+msgid "Connect to Aston"
+msgstr "連接到 Aston"
 
 #: src/emails/password-update-notify.email.tsx:24
 msgid "Dear {userName}"
@@ -36,20 +36,20 @@ msgid "If you did not initiate this change, please contact your workspace owner 
 msgstr "如果您未發起此更改，請立即聯繫您的工作區擁有者。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:46
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "如果您希望繼續使用 Twenty，請在接下來的 {remainingDays} {dayOrDays} 內更新您的訂閱。"
+msgid "If you wish to continue using Aston, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "如果您希望繼續使用 Aston，請在接下來的 {remainingDays} {dayOrDays} 內更新您的訂閱。"
 
 #: src/emails/clean-suspended-workspace.email.tsx:36
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "如果您想再次使用 Twenty，可以創建一個新的工作區。"
+msgid "If you wish to use Aston again, you can create a new workspace."
+msgstr "如果您想再次使用 Aston，可以創建一個新的工作區。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:34
 msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been suspended for {daysSinceInactive} days."
 msgstr "您的工作區 <0>{workspaceDisplayName}</0> 已被暫停 {daysSinceInactive} 天。"
 
 #: src/emails/send-invite-link.email.tsx:42
-msgid "Join your team on Twenty"
-msgstr "加入您的團隊，使用 Twenty"
+msgid "Join your team on Aston"
+msgstr "加入您的團隊，使用 Aston"
 
 #: src/emails/password-update-notify.email.tsx:29
 msgid "Password updated"
@@ -64,8 +64,8 @@ msgid "Reset your password 🗝"
 msgstr "重設您的密碼 🗝"
 
 #: src/emails/send-email-verification-link.email.tsx:27
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
-msgstr "感謝您在 Twenty 註冊帳戶！在開始之前，我們需要確認是您本人。請點擊上方驗證您的電子郵件地址。"
+msgid "Thanks for registering for an account on Aston! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
+msgstr "感謝您在 Aston 註冊帳戶！在開始之前，我們需要確認是您本人。請點擊上方驗證您的電子郵件地址。"
 
 #: src/emails/warn-suspended-workspace.email.tsx:40
 msgid "The workspace will be deactivated in {remainingDays} {dayOrDays}, and all its data will be deleted."

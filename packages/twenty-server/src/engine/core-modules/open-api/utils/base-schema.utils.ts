@@ -11,8 +11,8 @@ export const baseSchema = (
   return {
     openapi: '3.1.1',
     info: {
-      title: 'Twenty Api',
-      description: `This is a **Twenty REST/API** playground based on the **OpenAPI 3.1 specification**.`,
+      title: 'Aston Api',
+      description: `This is a **Aston REST/API** playground based on the **OpenAPI 3.1 specification**.`,
       termsOfService:
         'https://github.com/Brandedwithhonor/Aston?tab=coc-ov-file#readme',
       contact: {
@@ -48,7 +48,7 @@ export const baseSchema = (
       },
     ],
     externalDocs: {
-      description: 'Find out more about **Twenty**',
+      description: 'Find out more about **Aston**',
       url: 'https://twenty.com',
     },
     paths: { [`/open-api/${schemaName}`]: computeOpenApiPath(serverUrl) },

@@ -34,7 +34,7 @@ export const CleanSuspendedWorkspaceEmail = ({
         <br />
         <br />
         <Trans>
-          If you wish to use Twenty again, you can create a new workspace.
+          If you wish to use Aston again, you can create a new workspace.
         </Trans>
       </MainText>
       <CallToAction

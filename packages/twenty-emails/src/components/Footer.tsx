@@ -11,7 +11,7 @@ export const Footer = () => {
             <Link
               href="https://twenty.com/"
               value="Website"
-              aria-label="Visit Twenty's website"
+              aria-label="Visit Aston's website"
             />
           </ShadowText>
         </Column>
@@ -20,7 +20,7 @@ export const Footer = () => {
             <Link
               href="https://github.com/Brandedwithhonor/Aston"
               value="Github"
-              aria-label="Visit Twenty's GitHub repository"
+              aria-label="Visit Aston's GitHub repository"
             />
           </ShadowText>
         </Column>
@@ -29,7 +29,7 @@ export const Footer = () => {
             <Link
               href="https://twenty.com/user-guide"
               value="User guide"
-              aria-label="Read Twenty's user guide"
+              aria-label="Read Aston's user guide"
             />
           </ShadowText>
         </Column>
@@ -38,13 +38,13 @@ export const Footer = () => {
             <Link
               href="https://docs.twenty.com/"
               value="Developers"
-              aria-label="Visit Twenty's developer documentation"
+              aria-label="Visit Aston's developer documentation"
             />
           </ShadowText>
         </Column>
       </Row>
       <ShadowText>
-        Twenty.com Public Benefit Corporation
+        Aston.com Public Benefit Corporation
         <br />
         2261 Market Street #5275
         <br />

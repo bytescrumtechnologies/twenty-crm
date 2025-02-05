@@ -1,11 +1,11 @@
 import { useLingui } from '@lingui/react/macro';
 import { useRecoilValue } from 'recoil';
 import {
-  GithubVersionLink,
-  H2Title,
-  IconWorld,
-  Section,
-  UndecoratedLink,
+    GithubVersionLink,
+    H2Title,
+    IconWorld,
+    Section,
+    UndecoratedLink,
 } from 'twenty-ui';
 
 import { isMultiWorkspaceEnabledState } from '@/client-config/states/isMultiWorkspaceEnabledState';
@@ -62,7 +62,7 @@ export const SettingsWorkspace = () => {
               <H2Title
                 title={t`Support`}
                 adornment={<ToggleImpersonate />}
-                description={t`Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time.`}
+                description={t`Grant Aston support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time.`}
               />
             </Section>
           </>

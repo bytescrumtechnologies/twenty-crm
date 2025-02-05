@@ -20,8 +20,8 @@ msgid "Confirm your email address"
 msgstr "Confirme o seu endereço de e-mail"
 
 #: src/emails/password-update-notify.email.tsx:46
-msgid "Connect to Twenty"
-msgstr "Conecte-se ao Twenty"
+msgid "Connect to Aston"
+msgstr "Conecte-se ao Aston"
 
 #: src/emails/password-update-notify.email.tsx:24
 msgid "Dear {userName}"
@@ -36,20 +36,20 @@ msgid "If you did not initiate this change, please contact your workspace owner 
 msgstr "Se não iniciou esta alteração, contacte imediatamente o proprietário do seu workspace."
 
 #: src/emails/warn-suspended-workspace.email.tsx:46
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Se quiser continuar a usar o Twenty, atualize a sua subscrição nos próximos {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Aston, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Se quiser continuar a usar o Aston, atualize a sua subscrição nos próximos {remainingDays} {dayOrDays}."
 
 #: src/emails/clean-suspended-workspace.email.tsx:36
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Se quiser usar o Twenty novamente, pode criar um novo workspace."
+msgid "If you wish to use Aston again, you can create a new workspace."
+msgstr "Se quiser usar o Aston novamente, pode criar um novo workspace."
 
 #: src/emails/warn-suspended-workspace.email.tsx:34
 msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been suspended for {daysSinceInactive} days."
 msgstr "Parece que o seu workspace <0>{workspaceDisplayName}</0> foi suspenso há {daysSinceInactive} dias."
 
 #: src/emails/send-invite-link.email.tsx:42
-msgid "Join your team on Twenty"
-msgstr "Junte-se à sua equipa no Twenty"
+msgid "Join your team on Aston"
+msgstr "Junte-se à sua equipa no Aston"
 
 #: src/emails/password-update-notify.email.tsx:29
 msgid "Password updated"
@@ -64,8 +64,8 @@ msgid "Reset your password 🗝"
 msgstr "Redefina a sua palavra-passe 🗝"
 
 #: src/emails/send-email-verification-link.email.tsx:27
-msgid "Thanks for registering for an account on Twenty! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
-msgstr "Obrigado por se registar no Twenty! Antes de começarmos, precisamos confirmar que é você. Clique acima para verificar o seu endereço de e-mail."
+msgid "Thanks for registering for an account on Aston! Before we get started, we just need to confirm that this is you. Click above to verify your email address."
+msgstr "Obrigado por se registar no Aston! Antes de começarmos, precisamos confirmar que é você. Clique acima para verificar o seu endereço de e-mail."
 
 #: src/emails/warn-suspended-workspace.email.tsx:40
 msgid "The workspace will be deactivated in {remainingDays} {dayOrDays}, and all its data will be deleted."

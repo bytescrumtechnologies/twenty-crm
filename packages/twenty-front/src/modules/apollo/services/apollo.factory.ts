@@ -1,10 +1,10 @@
 import {
-  ApolloClient,
-  ApolloClientOptions,
-  ApolloLink,
-  fromPromise,
-  ServerError,
-  ServerParseError,
+    ApolloClient,
+    ApolloClientOptions,
+    ApolloLink,
+    fromPromise,
+    ServerError,
+    ServerParseError,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { onError } from '@apollo/client/link/error';
@@ -22,7 +22,7 @@ import { GraphQLFormattedError } from 'graphql';
 import { ApolloManager } from '../types/apolloManager.interface';
 import { loggerLink } from '../utils/loggerLink';
 
-const logger = loggerLink(() => 'Twenty');
+const logger = loggerLink(() => 'Aston');
 
 export interface Options<TCacheShape> extends ApolloClientOptions<TCacheShape> {
   onError?: (err: readonly GraphQLFormattedError[] | undefined) => void;
