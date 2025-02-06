@@ -41,3 +41,4 @@ dump.rdb
 /devenv.nix
 /flake.lock
 /flake.nix
+ecosystem.config.js
