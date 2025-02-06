@@ -20,7 +20,8 @@ const StyledContainer = styled.div`
 
 export const FooterNote = () => (
   <StyledContainer>
-    <Trans>By using Aston, you agree to the</Trans>{' '}
+    {/* <Trans>By using Aston, you agree to the</Trans>{' '} */}
+    By using Aston, you agree to the
     <a
       href="https://www.joinaston.com/terms-of-service"
       target="_blank"
