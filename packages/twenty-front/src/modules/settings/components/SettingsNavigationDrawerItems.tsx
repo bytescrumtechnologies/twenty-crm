@@ -143,6 +143,7 @@ export const SettingsNavigationDrawerItems = () => {
           label={t`General`}
           path={SettingsPath.Workspace}
           Icon={IconSettings}
+          
         />
         <SettingsNavigationDrawerItem
           label={t`Members`}
@@ -172,12 +173,14 @@ export const SettingsNavigationDrawerItems = () => {
           label={t`Integrations`}
           path={SettingsPath.Integrations}
           Icon={IconApps}
+           
         />
         <AdvancedSettingsWrapper navigationDrawerItem={true}>
           <SettingsNavigationDrawerItem
             label={t`Security`}
             path={SettingsPath.Security}
             Icon={IconKey}
+  
           />
         </AdvancedSettingsWrapper>
       </NavigationDrawerSection>
@@ -191,6 +194,7 @@ export const SettingsNavigationDrawerItems = () => {
             label={t`API & Webhooks`}
             path={SettingsPath.Developers}
             Icon={IconCode}
+             
           />
         </AdvancedSettingsWrapper>
         {isFunctionSettingsEnabled && (
@@ -223,6 +227,7 @@ export const SettingsNavigationDrawerItems = () => {
           label={t`Releases`}
           path={SettingsPath.Releases}
           Icon={IconRocket}
+          onClick={() => window.open('https://www.joinaston.com/user-guide', '_blank')}
         />
         <NavigationDrawerItem
           label={t`Logout`}
