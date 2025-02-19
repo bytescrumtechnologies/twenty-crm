@@ -143,7 +143,7 @@ export const SettingsNavigationDrawerItems = () => {
           label={t`General`}
           path={SettingsPath.Workspace}
           Icon={IconSettings}
-          onClick={() => window.open('https://www.joinaston.com/user-guide', '_blank')}
+          
         />
         <SettingsNavigationDrawerItem
           label={t`Members`}
@@ -173,14 +173,14 @@ export const SettingsNavigationDrawerItems = () => {
           label={t`Integrations`}
           path={SettingsPath.Integrations}
           Icon={IconApps}
-          onClick={() => window.open('https://www.joinaston.com/', '_blank')}
+           
         />
         <AdvancedSettingsWrapper navigationDrawerItem={true}>
           <SettingsNavigationDrawerItem
             label={t`Security`}
             path={SettingsPath.Security}
             Icon={IconKey}
-            onClick={() => window.open('https://www.joinaston.com/user-guide', '_blank')}
+  
           />
         </AdvancedSettingsWrapper>
       </NavigationDrawerSection>
@@ -194,7 +194,7 @@ export const SettingsNavigationDrawerItems = () => {
             label={t`API & Webhooks`}
             path={SettingsPath.Developers}
             Icon={IconCode}
-            onClick={() => window.open('https://www.joinaston.com/user-guide', '_blank')}
+             
           />
         </AdvancedSettingsWrapper>
         {isFunctionSettingsEnabled && (
